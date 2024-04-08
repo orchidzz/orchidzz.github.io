@@ -24,15 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    const resume = document.getElementById("resume");
-    resume.addEventListener("click", () => {
-        const ul = resume.nextElementSibling;
-        if (ul.style.display == "none") {
-            ul.style.display = "block";
-        } else {
-            ul.style.display = "none";
-        }
-    });
+    // const resume = document.getElementById("resume");
+    // resume.addEventListener("click", () => {
+    //     const ul = resume.nextElementSibling;
+    //     if (ul.style.display == "none") {
+    //         ul.style.display = "block";
+    //     } else {
+    //         ul.style.display = "none";
+    //     }
+    // });
 
     const projects = document.getElementById("projects");
     projects.addEventListener("click", () => {

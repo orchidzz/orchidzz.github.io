@@ -3,12 +3,16 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #F1CCBB ;
     color: #0B3B48 ;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 a:link{
@@ -72,11 +76,10 @@ footer {
     background-color: #0B3B48;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
     color: #FCE4B4;
-    height: 50px;
+    margin-top: auto;
 }
 
 .tree-menu ul {
@@ -141,6 +144,7 @@ footer {
 .retro:hover{
     color: black;
     background: #be05059f;
+    cursor: pointer;
 }
 
 .retro:active{
@@ -154,4 +158,10 @@ footer {
     box-shadow: 2px 2px black, 4px 4px #F1CCBB;
     padding:5px;
     width: fit-content;
+}
+h3, span:hover {
+    cursor: pointer;
+}
+a{
+    color:#0B3B48
 }
