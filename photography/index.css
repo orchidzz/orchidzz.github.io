@@ -1,0 +1,233 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body {
+    font-family: "Cascadia Code", Courier, monospace;
+    background-color: #f8f9fa;
+    color: #212529 ;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content{
+    background-color: #f8f9fa;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.headers{
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    color: #f8f9fa;
+    margin-top: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo{
+    box-shadow: 3px 3px #adb5bd, 4px 4px #ced4da, 5px 5px #e9ecef;
+    margin: 5px;
+    max-width: 95%;
+    max-height: 100vh;
+}
+
+.text{
+    background-color: #dee2e6;
+    padding: 10px;
+    color: #212529;
+    border-radius: 7px;
+    margin: 10px;
+    width: 75%;
+    max-width: 100%;
+    max-height: 100vh;
+    box-shadow: 3px 3px #adb5bd, 4px 4px #ced4da, 5px 5px #e9ecef;
+    margin-bottom: 40px;
+}
+
+.custom-navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px;
+    align-items: flex-start;
+}
+
+#navbar-collapsible{
+    display: none;
+    flex: 1;
+    flex-direction: column;
+    max-height: 15rem;
+    overflow: auto;
+    scrollbar-width: none;
+    /* background-color: #343a40; */
+}
+
+.inner-menu-btn{
+    position: absolute;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #212529;
+}
+
+.outer-menu-btn:hover{
+    background-color: #e9ecef;
+    
+}
+
+.outer-menu-btn:active{
+    background-color: #e9ecef;
+    box-shadow: 0px 0px;
+    transform: translateX(5px) translateY(2px); 
+}
+
+.outer-menu-btn{
+    position: absolute;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
+
+#menu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.tags{
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background: #fbf71b;
+    color: #212529;
+    font-size: 12px;
+    font-family: 'Cascadia Code', Courier, monospace;
+    font-weight: bold;
+    text-align:center;
+    border: 3px solid black!important;
+    border-radius: 0;
+    box-shadow: 3px 3px black;
+    padding-right: 5%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#tags-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#search-input{
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+    border: 2px solid black;
+    font-family: 'Cascadia Code', Courier, monospace;
+}
+
+#search-btn{
+    box-shadow: 3px 3px black;
+    font-family: 'Cascadia Code', Courier, monospace;
+    background-color: #f8f9fa;
+
+}   
+
+.title {
+    font-family: "Playfair Display";
+    color: #212529 ;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.info {
+    font-family: "Sora", sans-serif;
+    color: #495057 ;
+}
+
+.tags:hover{
+    color: #fbf71b;
+    background: #343a40;
+    cursor: pointer;
+}
+
+.tags:active{
+    background-color: #fbf70f!important;
+    color: black!important;
+    box-shadow: 0px 0px;
+    transform: translateX(5px) translateY(2px); 
+}
+
+#search-btn:hover{
+    color: #f8f9fa;
+    background: #343a40;
+    cursor: pointer;
+}
+
+#search-btn:active{
+    background-color: #f8f9fa!important;
+    color: black!important;
+    box-shadow: 0px 0px;
+    transform: translateX(5px) translateY(2px); 
+}
+
+#sound-btn{
+    position: fixed; /* Keeps the button in a fixed position */
+    bottom: 40px;    /* Distance from the bottom of the viewport */
+    right: 7px;     /* Distance from the right side of the viewport */
+    padding: 10px 20px;
+    color:rgba(92, 102, 113, 0.7);
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin-right: 7px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#soundcloud-widget{
+    margin: 5px;
+}

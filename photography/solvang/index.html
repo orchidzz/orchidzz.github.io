@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solvang</title>
+    <script src="../index.js"></script>
+    <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+</head>
+<body>
+    <div class="custom-navbar">
+        <div id="menu-btn">
+            <button class="inner-menu-btn"/>
+            <button class="outer-menu-btn"/>
+        </div>
+        <div id="navbar-collapsible">
+            <div class="search">
+                <input id="search-input"/>
+                <button id="search-btn">
+                    Find
+                </button>
+            </div>
+            <div id="tags-container"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="headers">
+            <div class="title">
+                Solvang
+            </div>
+            <div class="info">
+                Fujifilm X-T2, Christmas 2023
+            </div>
+        </div>
+        <div class="text">
+            A trip to Santa Barbara and Solvang
+        </div>
+        <img class="photo" onClick="window.open(this.src, '_self')" role="button" src="https://lh3.googleusercontent.com/pw/AP1GczOa5_a0PBu_ajUAs8v4E9nKnZr67RajQSmoPADBYPlZvTMNkPWiFhGxrfq6NDYMiaJajkU7bqY0r9JLjKZWJFoy2HRlPiMkh9D675fC65KfnMwfYwqy7-rANC7_lJ8jP56u9nThqSqoZMgXVwPY1R19=w959-h639-s-no-gm?authuser=0"/>
+        <div class="text">
+            A photo of someone taking a photo
+            <br> <br>
+            I was really surprised you could drive onto the pier here at Stearns Wharf. 
+            It was chilly and the blues really highlight that kind of calming atmosphere at the pier 
+            after sunset. The couple's jackets added more colors to this photo. For composition, I wanted 
+            capture the couple on the side instead of right at the center to show the distance/range of 
+            their photo-taking. Looking back, it just looks nice mainly because of the one third rule for composition.
+
+        </div>
+        <img class="photo" onClick="window.open(this.src, '_self')" role="button" src="https://lh3.googleusercontent.com/pw/AP1GczOiOnJBp8_yjohq8AB5V9rrLfmiOOlz50EEEADJ2IV2ntrS-s7JkF3xQJP0Y0bbdbJ-8A3BZB8bLiMw944moOc4_DvqQPGg-CMZrlrrJz-ZucYe5p4-p60gxsB8MyicP6IXJ14kDsS8Lq-BdZxQg_c9=w959-h639-s-no-gm?authuser=0"/>
+        <img class="photo" onClick="window.open(this.src, '_self')" role="button" src="https://lh3.googleusercontent.com/pw/AP1GczPjl3pjoNRsj-pGdeG4W8sn-_1ydtadtFKC9_Z1DRcd3BcRjVDl494A1nGzcsPWUHkUJpvY3kTny-8ZpgTQmYBMbfcfwhaZcsoLLTqr_wi5q1GvnVSWVgYwHOdRBGqo7wVdHak5AmaqcnmiGnPpmJh8=w959-h639-s-no-gm?authuser=0"/>
+        <div class="text">
+            Two different ways of framing. 
+            <br>
+            The first photo is at Lake Cachuma while the second one is at the Santa Barbara pier.
+            Using nearby subjects as frames make them look like windows for the viewer to peek into 
+            the picture, rather than just looking at it, thus adding depth/focus to the main subject in 
+            a vast space/background.
+
+        </div>
+        <img class="photo" onClick="window.open(this.src, '_self')" role="button" src="https://lh3.googleusercontent.com/pw/AP1GczMvlMM83ZVIBglYdbyrB2NpxX8Sx5dYX3zWcFW4Y-bN0QwR9keh_XmniPvebnV3kiiaHCoB6-Pg6kU271pjYeRGC2HyaxHrVIh94A317T7i_95Ub0UAuUS4DujpuEx_XEr5rQNueDL0YGEglsrbgetI=w615-h923-s-no-gm?authuser=0"/>
+        <div class="text">
+            While exploring the popular Solvang town, I walked by this alley and had to take a step back due to the 
+            colorful decorations catching my eyes. Unfortunately, the raw photo 
+            was rather dark so I had to work on brightening it without losing quality 
+            in post-processing. The lanterns' colors came out well though.
+        </div>
+        <img class="photo" onClick="window.open(this.src, '_self')" role="button" src="https://lh3.googleusercontent.com/pw/AP1GczOv24TlNXq4n05GaUDm0t7golvyIsp-FEp7wvZKHq6LzKGxn4VTOuHSNGIMAHiKP729fBQ2035rNTXaFf7gc2S_Q4ovS8l58HZjhGgHBOrIogQVPx-tLaq5Xj4umZZW_B2CGusxujIeTfRGevyKjJg6=w615-h923-s-no-gm?authuser=0"/>
+        <div class="text">
+            When I saw this red door and carpet, I had to stop to take a photo but no matter what I tried, 
+            I couldn't really capture the majestic red that I saw in person. In post-processing, I 
+            brightened and increased saturation for the red carpet and door without affecting the white walls. 
+            I also added cool undertone for the walls in order to contrast with the warm subject in the center. 
+        </div>
+        
+    </div>
+    <i id="sound-btn" class="bi bi-volume-mute-fill"></i>
+    <div class="container">
+        <iframe id="soundcloud-widget" width="350" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/346331399&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HN</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
