@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
         "chicago",
         "aquarium",
         "solvang",
-        "wrightwood",
         "aquarium 2",
     ];
     const tags_container = document.getElementById("tags-container");
