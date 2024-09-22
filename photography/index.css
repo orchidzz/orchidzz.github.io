@@ -90,7 +90,7 @@ footer {
 
 .outer-menu-btn:hover{
     background-color: #e9ecef;
-    
+    border: 1px solid black;
 }
 
 .outer-menu-btn:active{
@@ -167,6 +167,8 @@ footer {
     box-shadow: 3px 3px black;
     font-family: 'Cascadia Code', Courier, monospace;
     background-color: #f8f9fa;
+    border: 1px solid black;
+    color: black;
 
 }   
 

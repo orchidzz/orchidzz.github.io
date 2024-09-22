@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function populateWithTags(tags) {
     const tags_container = document.getElementById("tags-container");
-    const baseUrl = "http://127.0.0.1:5500/orchidzz.github.io";
+    const baseUrl = "http://orchidzz.github.io"; // change when in development
     tags.forEach((tag) => {
         const newTag = document.createElement("button");
         newTag.className = "tags";
