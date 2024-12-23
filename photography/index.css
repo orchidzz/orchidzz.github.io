@@ -173,14 +173,14 @@ footer {
 }   
 
 .title {
-    font-family: "Playfair Display";
+    font-family: 'Cascadia Code', Courier, monospace;
     color: #212529 ;
     font-weight: bold;
     font-size: xxx-large;
 }
 
 .info {
-    font-family: "Sora", sans-serif;
+    font-family: 'Cascadia Code', Courier, monospace;
     color: #495057 ;
 }
 

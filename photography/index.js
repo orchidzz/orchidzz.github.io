@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "aquarium",
         "solvang",
         "aquarium 2",
+        "aquarium 3",
     ];
     const tags_container = document.getElementById("tags-container");
     populateWithTags(tags);
