@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // create tags
+    // create tags = need to match folder name
     const tags = [
         "colors",
         "san diego",
@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "solvang",
         "aquarium 2",
         "aquarium 3",
+        "misc",
     ];
     const tags_container = document.getElementById("tags-container");
     populateWithTags(tags);

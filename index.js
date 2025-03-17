@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const collapse_btn = document.getElementById("collapse-btn");
     const sub_items = document.getElementsByClassName("sub-items");
 
+    /* Buttons */
     expand_btn.addEventListener("click", () => {
         for (let i = 0; i < sub_items.length; ++i) {
             sub_items[i].style.display = "block";
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    /* Sections */
     const contact = document.getElementById("contact");
     contact.addEventListener("click", () => {
         const ul = contact.nextElementSibling;
