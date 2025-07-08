@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "solvang",
         "aquarium 2",
         "aquarium 3",
+        "ensenada",
         "misc",
     ];
     const tags_container = document.getElementById("tags-container");
