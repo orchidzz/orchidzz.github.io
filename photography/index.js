@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "aquarium 2",
         "aquarium 3",
         "ensenada",
+        "huntington",
         "misc",
     ];
     const tags_container = document.getElementById("tags-container");
